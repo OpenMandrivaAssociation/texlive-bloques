@@ -1,3 +1,9 @@
+# revision 22490
+# category Package
+# catalog-ctan /graphics/pgf/contrib/bloques
+# catalog-date 2011-05-15 09:47:34 +0200
+# catalog-license lppl1.3
+# catalog-version 1.0
 Name:		texlive-bloques
 Version:	1.0
 Release:	1
@@ -39,6 +45,7 @@ control diagrams (specially in power electronics).
 %doc %{_texmfdistdir}/doc/latex/bloques/README
 %doc %{_texmfdistdir}/doc/latex/bloques/example.pdf
 %doc %{_texmfdistdir}/doc/latex/bloques/example.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ control diagrams (specially in power electronics).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
