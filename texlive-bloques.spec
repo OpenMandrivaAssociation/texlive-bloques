@@ -1,6 +1,6 @@
 Name:		texlive-bloques
 Version:	22490
-Release:	1
+Release:	2
 Summary:	Generate control diagrams
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/bloques
