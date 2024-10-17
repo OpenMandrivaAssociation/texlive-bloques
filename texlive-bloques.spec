@@ -3,7 +3,7 @@ Version:	22490
 Release:	2
 Summary:	Generate control diagrams
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/bloques
+URL:		https://www.ctan.org/tex-archive/graphics/pgf/contrib/bloques
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bloques.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/bloques.doc.r%{version}.tar.xz
